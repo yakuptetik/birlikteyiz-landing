@@ -917,7 +917,7 @@ Banner Style
 
 .main-banner .left-content p {
   margin-bottom: 45px;
-  color: #2a2a2a;
+  color: #fff;
   font-weight: 400;
 }
 
@@ -1014,70 +1014,69 @@ features Style
 }
 
 .first-service .icon {
-  background-image: url(../images/Güvenli\ Gizli\ Destek.svg);
+  background-image: url(../images/guvenli-destek.svg);
 }
 
 .first-service:hover .icon {
-  background-image: url(../images/Güvenli\ Gizli\ Destek-2-.svg);
+  background-image: url(../images/guvenli-destek-hover.svg);
 }
 
 .second-service .icon {
-  background-image: url(../images/Prof.\ Anında\ Bağl.\ Kurun.svg);
+  background-image: url(../images/prof-baglan.svg);
 }
 
 .second-service:hover .icon {
-  background-image: url(../images/Prof.\ Anında\ Bağl.\ Kurun-2.svg);
+  background-image: url(../images/prof-baglan-hover.svg);
 }
 
 
 .third-service .icon {
-  background-image: url(../images/Kullanımı\ Kolay\ Arayüz.svg);
+  background-image: url(../images/kullanımı-kolay.svg);
 }
 
 .third-service:hover .icon {
-  background-image: url(../images/Kullanımı\ Kolay\ Arayüz-2.svg);
+  background-image: url(../images/kullanımı-kolay-hover.svg);
 }
 
 .fourth-service .icon {
-  background-image: url(../images/Uzm.\ Parmaklarınızın\ Ucn.svg);
+  background-image: url(../images/uzman-parmaklar.svg);
 }
 
 .fourth-service:hover .icon {
-  background-image: url(../images/Uzm.\ Parmaklarınızın\ Ucn-2.svg);
+  background-image: url(../images/uzaman-parmaklar-hover.svg);
 }
 
 
 .fifth-service .icon {
-  background-image: url(../images/İhtiyaç\ Anında\ Destek\ Olun.svg);
+  background-image: url(../images/ihtiyac-anında.svg);
 }
 
 .fifth-service:hover .icon {
-  background-image: url(../images/İhtiyaç\ Anında\ Destek\ Olun-2.svg);
+  background-image: url(../images/ihtiyac-anında-hover.svg);
 }
 
 .sixth-service .icon {
-  background-image: url(../images/Kişiselleştirilmiş\ Hizmet\ Alın.svg);
+  background-image: url(../images/kisisel-hizmet.svg);
 }
 
 .sixth-service:hover .icon {
-  background-image: url(../images/Kişiselleştirilmiş\ Hizmet\ Alın-2.svg);
+  background-image: url(../images/kisisel-hizmet-hover.svg);
 }
 
-
 .seventh-service .icon {
-  background-image: url(../images/Profesyonel\ Destek.svg);
+  background-image: url(../images/profesyonel-destek.svg);
 }
 
 .seventh-service:hover .icon {
-  background-image: url(../images/Profesyonel\ Destek-2.svg);
+  background-image: url(../images/profesyonel-destek-hover.svg);
 }
 
 .eighth-service .icon {
-  background-image: url(../images/Zor\ Zamanlarda\ Desteklendiginizi\ Hissedin.svg);
+  background-image: url(../images/zor-zamanlar.svg);
 }
 
 .eighth-service:hover .icon {
-  background-image: url(../images/Zor\ Zamanlarda\ Desteklendiginizi\ Hissedin-2.svg);
+  background-image: url(../images/zor-zamanlar-hover.svg);
 }
 .service-item:hover {
   background-image: url(../images/Pattern-2.png);
@@ -1163,9 +1162,9 @@ footer {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
-  padding-top: 300px;
-  padding-bottom: 60px;
+  margin-top: 50px;
+  padding-top: 180px;
+
 }
 
 footer .section-heading {
@@ -1215,7 +1214,7 @@ footer #search button:hover {
 }
 
 .footer-widget .logo img {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer-widget h4 {
@@ -1533,7 +1532,7 @@ responsive
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .header-area .main-nav .logo h4 {
     font-size: 24px;
   }
@@ -1552,10 +1551,12 @@ responsive
     line-height: 70px;
     font-size: 50px;
     margin-bottom: 20px;
+    color:#fff;
   }
 
   .main-banner .left-content p {
     margin-bottom: 45px;
+    color: #fff;
   }
 }
 
