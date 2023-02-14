@@ -1022,11 +1022,11 @@ features Style
 }
 
 .second-service .icon {
-  background-image: url(../images/prof-baglan.svg);
+  background-image: url(../images/profesyonel-destek.svg);
 }
 
 .second-service:hover .icon {
-  background-image: url(../images/prof-baglan-hover.svg);
+  background-image: url(../images/profesyonel-destek-hover.svg);
 }
 
 
@@ -1064,11 +1064,11 @@ features Style
 }
 
 .seventh-service .icon {
-  background-image: url(../images/profesyonel-destek.svg);
+  background-image: url(../images/prof-baglan.svg);
 }
 
 .seventh-service:hover .icon {
-  background-image: url(../images/profesyonel-destek-hover.svg);
+  background-image: url(../images/prof-baglan-hover.svg);
 }
 
 .eighth-service .icon {
