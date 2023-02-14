@@ -1576,7 +1576,6 @@ responsive
     margin-right: 0;
   }
   .main-banner .left-content .white-button a {
-    background-color: #4b8ef1;
     color: #fff !important;
   }
   form#contact {
@@ -1723,7 +1722,6 @@ responsive
   }
   .service-item {
     text-align: center;
-    padding: 30px;
   }
   .menu .thumb span.category {
     display: none;
@@ -1733,7 +1731,6 @@ responsive
   }
   .service-item .icon {
     float: none;
-    margin-right: 0px;
     margin-bottom: 15px;
   }
   .service-item .right-content {
