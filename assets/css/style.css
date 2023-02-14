@@ -656,7 +656,7 @@ header
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 760px) {
   .pre-header ul.info li:last-child,
   .pre-header ul.info li:nth-child(6) {
     display: none!important;
@@ -694,6 +694,8 @@ header
   }
   .header-area .main-nav {
     overflow: hidden;
+
+    
   }
   .header-area .main-nav .nav {
     float: none;
@@ -712,22 +714,13 @@ header
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px;
+    visibility: hidden!important;
   }
   .header-area .main-nav .nav li {
-    width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #e7e7e7;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    visibility: hidden!important;
   }
   .header-area .main-nav .nav li a {
-    height: 50px !important;
-    line-height: 50px !important;
-    padding: 0px !important;
-    border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    visibility: hidden!important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
@@ -986,8 +979,6 @@ features Style
 }
 
 .service-item .icon {
-  margin-left: 0px;
-  margin-bottom: 30px;
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
@@ -1260,8 +1251,7 @@ footer #search button:hover {
 
 footer .copyright-text p {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   color: #fff;
 }
 
@@ -1671,7 +1661,7 @@ responsive
     text-align: center;
   }
   footer .section-heading h4 {
-    color: #2a2a2a;
+    margin-top: 200px;
   }
   footer #search {
     margin-bottom: 45px;
@@ -1731,7 +1721,7 @@ responsive
   }
   .service-item .icon {
     float: none;
-    margin-bottom: 15px;
+    margin: 0 auto 30px auto;
   }
   .service-item .right-content {
     display: inline-block;
@@ -1872,16 +1862,14 @@ width: 90%;
 
 .carousel-wrap {
 margin: 50px auto 50px;
-padding: 10px 75px 0px 75px;
 width: 100%;
 position: relative;
 }
 
 .owl-carousel .item {
-position: relative;
 border:1px solid black ;
 border-radius: 10px;
-z-index: 100; 
+
 }
 
 .owl-nav > div > button {

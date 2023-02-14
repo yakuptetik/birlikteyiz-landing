@@ -44,8 +44,8 @@
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container h-full">
-      <nav class="flex justify-between items-center main-nav h-full">
-        <a href="index.html" class="logo w-auto h-[60%]">
+      <nav class="flex justify-between max-[760px]:justify-center items-center main-nav h-full">
+        <a href="index.html" class="logo flex items-center justify-center w-auto h-[60%]">
           <img src="assets/images/logo.svg" class="w-full h-full" alt="Birlikteyiz">
         </a>
         <!-- ***** Logo End ***** -->
@@ -95,7 +95,7 @@
 
   <div id="features" class="features section">
     <div class="container">
-      <div class="row">
+      <div class="row md:p-1 sm:p-1 min-[1000px]:p-1">
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>Birlikte Bir <strong class="text-[#4052D8]">Fark</strong>  Yaratabiliriz </h4>
@@ -106,9 +106,9 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="grid grid-cols-4 gap-4 min-[1100px]:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 max-[640px]:grid-cols-1">
+    <div class="">
+      <div class="p-6">
+        <div class="grid grid-cols-4 gap-4 min-[1200px]:grid-cols-4 min-[1000px]:grid-cols-3 min-[1000px]:p-1  md:grid-cols-2 sm:grid-cols-2 md:p-1 sm:p-1 max-[640px]:grid-cols-1">
         <div class="h-full w-full">
           <div class="service-item px-4 pt-4 first-service h-full">
             <div class="icon"></div>
@@ -121,7 +121,7 @@
         </div>
 
         <div class="h-full w-full">
-          <div class="service-item px-4 pt-4 second-service h-full">
+          <div class="service-item px-4 pt-4  second-service h-full">
             <div class="icon"></div>
             <h4>
               Profesyonel Destek
@@ -202,8 +202,8 @@
   <div id="galery" class="w-full mt-5">
     <div class="row mt-10 w-full flex items-center justify-center">
       <div class="flex items-center  justify-center ">
-        <div class="section-heading w-[40%]  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-          <h4 class="flex items-center ">
+        <div class="section-heading w-[40%] min-[1000px]:w-[50%]  md:w-[60%] sm:w-[70%] md:pl-10 sm:pl-10 max-[640px]:w-[80%]  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+          <h4 class="">
             Depremzedeler için Topluluk Platformu
           </h4>
           <p>
@@ -213,43 +213,49 @@
       </div>
     </div> 
   
-    <div class="carousel-wrap">
-      <div id="owl-carousel2" class="owl-carousel">
-        <div class="item">
+    <div class="carousel-wrap px-10">
+      <div id="owl-carousel2" class="owl-carousel h-full w-full max-[760px]:w-[200%] ">
+        <div class="item h-full w-full">
           <div class="image">
-        <img class="rounded-lg"  src="assets/images/1.png" height="300"/>
+            <img class="rounded-lg" src="assets/images/1.png" />
           </div>
         </div>
+
         <div class="item">
-          <div class="image">
-        <img class="rounded-lg"  src="assets/images/2.png" height="300"/>
+          <div class="image ">
+        <img class="rounded-lg "  src="assets/images/2.png"/>
           </div>
         </div>
+
         <div class="item">
-          <div class="image">
-        <img class="rounded-lg"  src="assets/images/3.png" height="300"/>
+          <div class="image ">
+        <img class="rounded-lg "  src="assets/images/3.png"/>
           </div>
         </div>
+
           <div class="item">
-            <div class="image">
-        <img class="rounded-lg"  src="assets/images/4.png" height="300"/>
+            <div class="image ">
+        <img class="rounded-lg "  src="assets/images/4.png"/>
           </div>
         </div>
         <div class="item">
-          <div class="image">
-        <img class="rounded-lg"  src="assets/images/5.png" height="300"/>
+          <div class="image ">
+        <img class="rounded-lg "  src="assets/images/5.png"/>
           </div>
         </div>
+
+        <div class="item h-full w-full">
+          <div class="image ">
+        <img class="rounded-lg w-full"  src="assets/images/6.png"/>
+          </div>
+        </div>
+
         <div class="item">
-          <div class="image">
-        <img class="rounded-lg"  src="assets/images/6.png" height="300"/>
+          <div class="image ">
+        <img class="rounded-lg "  src="assets/images/7.png"/>
           </div>
         </div>
-        <div class="item">
-          <div class="image">
-        <img class="rounded-lg"  src="assets/images/7.png" height="300"/>
-          </div>
-        </div>
+
       </div>
     </div>
 
@@ -263,15 +269,15 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 ">
-          <div class=" section-heading">
+          <div class="section-heading">
             <h4 class="mt-10">Birlikteyiz: Depremzedeler İçin dayanışmanın güçlü İfadesi.</h4>
           </div>
         </div>
 
       </div>
       <div class="row">
-        <div class="flex  items-center justify-evenly">
-        <div class="col-lg-4">
+        <div class="flex  justify-around max-[760px]: justify-center">
+        <div class="w-[33%] max-[760px]:w-[100%] flex justify-center pl-12 max-[760px]:pr-5">
           <div class="footer-widget">
             <div class="logo w-44 ">
               <img class="w-full h-full" src="assets/images/logo-beyaz.svg" alt="">
@@ -281,18 +287,18 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-2">
-          <div class="footer-widget">
+        <div class="w-[33%] flex justify-center max-[760px]:hidden">
+          <div class="footer-widget ">
             <h4>Hakkımızda</h4>
             <ul>
               <li><a href="#top">Anasayfa</a></li>
               <li><a href="#features">Özellikler</a></li>
-              <li><a href="#galery">App Galery</a></li>
+              <li><a href="#galery">Galeri</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-2">
-          <div class="footer-widget">
+        <div class="w-[33%] flex justify-center max-[760px]:hidden">
+          <div class="footer-widget max-[760px]:hidden">
             <h4>Bize Ulaşın</h4>
             <p><a class="hover:text-[#4052D8]" href="https://www.ron.digital/">Ron Digital</a> <br>
               <a type="email" href="mailto: info@birlikteyiz.net">info@birlikteyiz.net</a></p>
@@ -300,9 +306,10 @@
         </div>          
         </div>
 
-        <div class="col-lg-12">
+        <div class="col-lg-12 pt-2">
+
           <div class="copyright-text pb-2">
-            <p>© 2023 <a class="hover:text-[#4052D8]" href="https://www.ron.digital/">Ron Digital</a> Startup Agency</p>
+            <p>© 2023 <a class="hover:text-[#4052D8]" href="https://www.ron.digital/">Ron Digital</a> Startup Agency </p>
           </div>
         </div>
       </div>
