@@ -1483,6 +1483,7 @@ responsive
   .main-banner .left-content p {
     margin-bottom: 45px;
     color: #fff;
+    width: 90%;
   }
 }
 
@@ -1500,6 +1501,7 @@ responsive
   .main-banner .left-content p {
     color: #616161;
     margin-right: 0;
+    width: 100%;
   }
   .main-banner .left-content .white-button a {
     color: #fff !important;
